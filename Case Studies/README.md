@@ -1,4 +1,4 @@
-# All chapter from Book: New Perspectives: Portfolio Projects for Business Analysis 
+# All Projects from Book: New Perspectives: Portfolio Projects for Business Analysis 
 
-## Chapter 1
-## Chapter 2
+## Project 1
+## Project 2
