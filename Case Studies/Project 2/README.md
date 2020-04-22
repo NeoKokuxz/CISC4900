@@ -41,7 +41,7 @@ mysql> SELECT * FROM CH2_Mobile_Income;
 |  Interest Expense         |            1 |
 | Income Before Taxes       |          499 |
 | Taxes                     |          127 |
-| Net Income                |          372 |
+| Net Income                |          272 |
 +---------------------------+--------------+
 14 rows in set (0.00 sec)
 ```
