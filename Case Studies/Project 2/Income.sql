@@ -97,7 +97,7 @@ Query OK, 1 row affected (0.00 sec)
 mysql> INSERT INTO CH2_Mobile_Income (Income_statment, In_thousands)  VALUES ('Taxes', 127);
 Query OK, 1 row affected (0.00 sec)
 
-mysql> INSERT INTO CH2_Mobile_Income (Income_statment, In_thousands)  VALUES ('Net Income', 372);
+mysql> INSERT INTO CH2_Mobile_Income (Income_statment, In_thousands)  VALUES ('Net Income', 272);
 Query OK, 1 row affected (0.01 sec)
 
 -------------------------------------------------------------
@@ -118,7 +118,7 @@ mysql> SELECT * FROM CH2_Mobile_Income;
 |  Interest Expense         |            1 |
 | Income Before Taxes       |          499 |
 | Taxes                     |          127 |
-| Net Income                |          372 |
+| Net Income                |          272 |
 +---------------------------+--------------+
 14 rows in set (0.00 sec)
 
