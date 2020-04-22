@@ -65,7 +65,7 @@ Query OK, 1 row affected (0.01 sec)
 mysql> INSERT INTO CH2_Mobile_Income (Income_statment, In_thousands)  VALUES ('COGS', 3411);
 Query OK, 1 row affected (0.01 sec)
 
-mysql> INSERT INTO CH2_Mobile_Income (Income_statment, In_thousands)  VALUES ('Gross Profit', 2400);
+mysql> INSERT INTO CH2_Mobile_Income (Income_statment, In_thousands)  VALUES ('Gross Profit', 2300);
 Query OK, 1 row affected (0.01 sec)
 mysql> INSERT INTO CH2_Mobile_Income (Income_statment, In_thousands)  VALUES ('Operating Expenses', null);
 Query OK, 1 row affected (0.01 sec)
@@ -85,13 +85,13 @@ Query OK, 1 row affected (0.00 sec)
 mysql> INSERT INTO CH2_Mobile_Income (Income_statment, In_thousands)  VALUES ('Total Operating Expenses', 1900 );
 Query OK, 1 row affected (0.01 sec)
 
-mysql> INSERT INTO CH2_Mobile_Income (Income_statment, In_thousands)  VALUES ('Operating Income', 500);
+mysql> INSERT INTO CH2_Mobile_Income (Income_statment, In_thousands)  VALUES ('Operating Income', 400);
 Query OK, 1 row affected (0.01 sec)
 
 mysql> INSERT INTO CH2_Mobile_Income (Income_statment, In_thousands)  VALUES (' Interest Expense', 1);
 Query OK, 1 row affected (0.01 sec)
 
-mysql> INSERT INTO CH2_Mobile_Income (Income_statment, In_thousands)  VALUES ('Income Before Taxes', 499);
+mysql> INSERT INTO CH2_Mobile_Income (Income_statment, In_thousands)  VALUES ('Income Before Taxes', 399);
 Query OK, 1 row affected (0.00 sec)
 
 mysql> INSERT INTO CH2_Mobile_Income (Income_statment, In_thousands)  VALUES ('Taxes', 127);
@@ -107,16 +107,16 @@ mysql> SELECT * FROM CH2_Mobile_Income;
 +---------------------------+--------------+
 | Sale Revenue              |         5811 |
 | COGS                      |         3411 |
-| Gross Profit              |         2400 |
+| Gross Profit              |         2300 |
 | Operating Expenses        |         NULL |
 |  General & Administrative |          292 |
 |  Sales & Marketing        |         1389 |
 |  Research & Development   |          214 |
 |  Other                    |            5 |
 | Total Operating Expenses  |         1900 |
-| Operating Income          |          500 |
+| Operating Income          |          400 |
 |  Interest Expense         |            1 |
-| Income Before Taxes       |          499 |
+| Income Before Taxes       |          399 |
 | Taxes                     |          127 |
 | Net Income                |          272 |
 +---------------------------+--------------+
